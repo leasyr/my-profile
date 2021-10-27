@@ -1,0 +1,101 @@
+body {
+	background-color: antiquewhite;
+	color: black;
+	font-family: courier;
+	text-align: center;
+}
+
+
+h1 {
+	color: lightpink;
+	font-family: fantasy;
+	font-weight: 120;
+	letter-spacing: 7px;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: lightpink;
+	font-family: initial;
+	font-weight: 60;
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+
+a{
+	text-decoration: none;
+	color:  lightpink;
+
+}
+a:hover {
+	Color:  purple;
+}
+
+
+
+ul{
+	list-style-type : none;
+}
+
+div {
+	background: floralwhite;
+	border-radius: 40px;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+.shadowed {
+	box-shadow:  10px 10px 6px rgba(220, 220, 220, 0.4);
+}
+
+
+.btn-purple {
+	background: deeppink;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display:  inline;
+	padding:  10px;
+	font-size: 70px;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+
+  @media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+   .img-circle{
+	border-radius: 0%;
+	}
+}
+
+.container {
+	width: 600px;
+	margin: auto 30px;
+}
